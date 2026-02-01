@@ -1,0 +1,120 @@
+{
+  "TRTR": {
+    "RandomForest": {
+      "f1_score": 0.9989364530709919,
+      "f1_macro": 0.9989361701375178,
+      "f1_weighted": 0.9989361701375179,
+      "auroc": 0.9998577905726573,
+      "auprc": 0.99972020234759,
+      "accuracy": 0.9989361702127659,
+      "precision": 0.9986709197235513,
+      "recall": 0.9992021276595745,
+      "brier_score": 0.0009750826846762099,
+      "log_loss": 0.007942148580460315,
+      "ece": 0.0009577319712545079,
+      "confusion_matrix": [
+        [
+          3755,
+          5
+        ],
+        [
+          3,
+          3757
+        ]
+      ]
+    },
+    "LightGBM": {
+      "f1_score": 0.9993351947879271,
+      "f1_macro": 0.9993351063712211,
+      "f1_weighted": 0.9993351063712211,
+      "auroc": 0.9999991158329561,
+      "auprc": 0.9999990806917591,
+      "accuracy": 0.9993351063829787,
+      "precision": 0.9992023398032438,
+      "recall": 0.999468085106383,
+      "brier_score": 0.0004266226056264654,
+      "log_loss": 0.0012880085233345066,
+      "ece": 0.000558974450439058,
+      "confusion_matrix": [
+        [
+          3757,
+          3
+        ],
+        [
+          2,
+          3758
+        ]
+      ]
+    }
+  },
+  "TSTR": {
+    "RandomForest": {
+      "f1_score": 0.8080587224738405,
+      "f1_macro": 0.8328819720971726,
+      "f1_weighted": 0.8328819720971726,
+      "auroc": 0.8673415572657311,
+      "auprc": 0.8987056440774983,
+      "accuracy": 0.8365691489361702,
+      "precision": 0.9788119561104806,
+      "recall": 0.688031914893617,
+      "brier_score": 0.14784019884968266,
+      "log_loss": 2.9203386673331937,
+      "ece": 0.15109111688506063,
+      "confusion_matrix": [
+        [
+          3704,
+          56
+        ],
+        [
+          1173,
+          2587
+        ]
+      ]
+    },
+    "LightGBM": {
+      "f1_score": 0.7367436057392389,
+      "f1_macro": 0.7705507551181128,
+      "f1_weighted": 0.7705507551181127,
+      "auroc": 0.8405411455975556,
+      "auprc": 0.8620996125097173,
+      "accuracy": 0.7755319148936171,
+      "precision": 0.8906485671191554,
+      "recall": 0.6281914893617021,
+      "brier_score": 0.18235177383647,
+      "log_loss": 3.686018718390732,
+      "ece": 0.17273914035384927,
+      "confusion_matrix": [
+        [
+          3470,
+          290
+        ],
+        [
+          1398,
+          2362
+        ]
+      ]
+    }
+  },
+  "config": {
+    "random_state": 42,
+    "test_size": 0.2,
+    "n_trials": 30,
+    "cv_folds": 5,
+    "use_calibration": true,
+    "real_normal_filter": [
+      "likely_normal"
+    ],
+    "real_anomaly_filter": [
+      "medium_confidence",
+      "high_confidence",
+      "very_high_confidence"
+    ],
+    "n_real_total": 37596,
+    "n_real_normal": 18798,
+    "n_real_anomaly": 18798,
+    "n_synthetic_total": 37596,
+    "n_synthetic_normal": 18798,
+    "n_synthetic_anomaly": 18798,
+    "n_features": 27
+  }
+}

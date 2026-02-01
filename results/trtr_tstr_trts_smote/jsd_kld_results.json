@@ -1,0 +1,413 @@
+{
+  "normal": {
+    "announcements": {
+      "JSD": 0.3087094545107218,
+      "KLD_synthetic_to_real": 1.5104091617348927,
+      "KLD_real_to_synthetic": 0.8881233829169313
+    },
+    "as_path_max": {
+      "JSD": 0.22614298396411253,
+      "KLD_synthetic_to_real": 1.2498158293849704,
+      "KLD_real_to_synthetic": 0.5495003561729283
+    },
+    "dups": {
+      "JSD": 0.36995058759644966,
+      "KLD_synthetic_to_real": 1.1984450559300908,
+      "KLD_real_to_synthetic": 1.4928523707421701
+    },
+    "edit_distance_avg": {
+      "JSD": 0.1366029775652046,
+      "KLD_synthetic_to_real": 1.7524473500876598,
+      "KLD_real_to_synthetic": 0.32922434962787944
+    },
+    "edit_distance_dict_0": {
+      "JSD": 0.3701795635405481,
+      "KLD_synthetic_to_real": 1.2144217789298897,
+      "KLD_real_to_synthetic": 1.3585829439432995
+    },
+    "edit_distance_dict_1": {
+      "JSD": 0.5852218815763559,
+      "KLD_synthetic_to_real": 2.549540312210708,
+      "KLD_real_to_synthetic": 2.967073905592728
+    },
+    "edit_distance_dict_2": {
+      "JSD": 0.4957729079192968,
+      "KLD_synthetic_to_real": 1.9204476470012137,
+      "KLD_real_to_synthetic": 1.8298946656995987
+    },
+    "edit_distance_dict_3": {
+      "JSD": 0.5712534188425757,
+      "KLD_synthetic_to_real": 2.1359550674503245,
+      "KLD_real_to_synthetic": 2.983640062854195
+    },
+    "edit_distance_dict_4": {
+      "JSD": 0.3541376476151332,
+      "KLD_synthetic_to_real": 1.0506453696613434,
+      "KLD_real_to_synthetic": 1.394490015712127
+    },
+    "edit_distance_dict_5": {
+      "JSD": 0.3020138027785838,
+      "KLD_synthetic_to_real": 0.7920280466760589,
+      "KLD_real_to_synthetic": 1.3096992534273626
+    },
+    "edit_distance_dict_6": {
+      "JSD": 0.2518936444041895,
+      "KLD_synthetic_to_real": 0.6154991666820947,
+      "KLD_real_to_synthetic": 1.261215559312599
+    },
+    "edit_distance_max": {
+      "JSD": 0.4145473528188132,
+      "KLD_synthetic_to_real": 3.061759704966603,
+      "KLD_real_to_synthetic": 1.1776303795099832
+    },
+    "edit_distance_unique_dict_0": {
+      "JSD": 0.3485497801077575,
+      "KLD_synthetic_to_real": 1.1668001669481893,
+      "KLD_real_to_synthetic": 1.1384198711904732
+    },
+    "edit_distance_unique_dict_1": {
+      "JSD": 0.542028824380016,
+      "KLD_synthetic_to_real": 2.300149478322503,
+      "KLD_real_to_synthetic": 2.0288446032244827
+    },
+    "flaps": {
+      "JSD": 0.24693397474001563,
+      "KLD_synthetic_to_real": 0.7927301012314508,
+      "KLD_real_to_synthetic": 0.7910750705465619
+    },
+    "imp_wd": {
+      "JSD": 0.48183776992866234,
+      "KLD_synthetic_to_real": 1.9509781630560419,
+      "KLD_real_to_synthetic": 2.3971176932159994
+    },
+    "imp_wd_dpath": {
+      "JSD": 0.3969805242572889,
+      "KLD_synthetic_to_real": 1.411288706042856,
+      "KLD_real_to_synthetic": 1.5701087295758935
+    },
+    "imp_wd_spath": {
+      "JSD": 0.3872927667077936,
+      "KLD_synthetic_to_real": 1.226932347105256,
+      "KLD_real_to_synthetic": 1.3107193376407393
+    },
+    "nadas": {
+      "JSD": 0.05510289787203483,
+      "KLD_synthetic_to_real": 0.14929692270065975,
+      "KLD_real_to_synthetic": 0.16604625390393407
+    },
+    "nlri_ann": {
+      "JSD": 0.3087094545107218,
+      "KLD_synthetic_to_real": 1.5104091617348927,
+      "KLD_real_to_synthetic": 0.8881233829169313
+    },
+    "number_rare_ases": {
+      "JSD": 0.0913226613150779,
+      "KLD_synthetic_to_real": 0.28733559785245694,
+      "KLD_real_to_synthetic": 0.32382011609744615
+    },
+    "origin_0": {
+      "JSD": 0.4379508350717968,
+      "KLD_synthetic_to_real": 2.4645548132575206,
+      "KLD_real_to_synthetic": 1.2554997265893437
+    },
+    "origin_2": {
+      "JSD": 0.23516607210570903,
+      "KLD_synthetic_to_real": 0.6576821287920034,
+      "KLD_real_to_synthetic": 0.8149080453855904
+    },
+    "origin_changes": {
+      "JSD": 0.10303544245720045,
+      "KLD_synthetic_to_real": 0.30366531465825386,
+      "KLD_real_to_synthetic": 0.2951732790746454
+    },
+    "rare_ases_avg": {
+      "JSD": 0.3274843290823787,
+      "KLD_synthetic_to_real": 1.8163315636279995,
+      "KLD_real_to_synthetic": 0.9234799969450032
+    },
+    "unique_as_path_max": {
+      "JSD": 0.7120572519140608,
+      "KLD_synthetic_to_real": 4.226510047067965,
+      "KLD_real_to_synthetic": 8.223105396784122
+    },
+    "withdrawals": {
+      "JSD": 0.1672123892808853,
+      "KLD_synthetic_to_real": 0.4784987416333349,
+      "KLD_real_to_synthetic": 0.6461462629420668
+    }
+  },
+  "anomaly": {
+    "announcements": {
+      "JSD": 0.020945932772979344,
+      "KLD_synthetic_to_real": 0.059574654334044665,
+      "KLD_real_to_synthetic": 0.057594249995009485
+    },
+    "as_path_max": {
+      "JSD": 0.09947733622241194,
+      "KLD_synthetic_to_real": 0.2408808382527824,
+      "KLD_real_to_synthetic": 0.7231467517372933
+    },
+    "dups": {
+      "JSD": 0.021125448137431408,
+      "KLD_synthetic_to_real": 0.06953716940850849,
+      "KLD_real_to_synthetic": 0.052303737798609556
+    },
+    "edit_distance_avg": {
+      "JSD": 0.06815079584537478,
+      "KLD_synthetic_to_real": 0.4906152263923425,
+      "KLD_real_to_synthetic": 0.18816269566796978
+    },
+    "edit_distance_dict_0": {
+      "JSD": 0.0,
+      "KLD_synthetic_to_real": 0.0,
+      "KLD_real_to_synthetic": 0.0
+    },
+    "edit_distance_dict_1": {
+      "JSD": 0.025912358804612116,
+      "KLD_synthetic_to_real": 0.07658758643208904,
+      "KLD_real_to_synthetic": 0.07142150594287303
+    },
+    "edit_distance_dict_2": {
+      "JSD": 0.015719846758156564,
+      "KLD_synthetic_to_real": 0.04699889258519032,
+      "KLD_real_to_synthetic": 0.04159399085733998
+    },
+    "edit_distance_dict_3": {
+      "JSD": 0.027057416189657808,
+      "KLD_synthetic_to_real": 0.0968852351287382,
+      "KLD_real_to_synthetic": 0.06769534113641477
+    },
+    "edit_distance_dict_4": {
+      "JSD": 0.009806060443059256,
+      "KLD_synthetic_to_real": 0.03002939659367174,
+      "KLD_real_to_synthetic": 0.02518075146430978
+    },
+    "edit_distance_dict_5": {
+      "JSD": 0.0018574936519284435,
+      "KLD_synthetic_to_real": 0.0054274311759376715,
+      "KLD_real_to_synthetic": 0.004916556578246421
+    },
+    "edit_distance_dict_6": {
+      "JSD": 0.0025382681783147985,
+      "KLD_synthetic_to_real": 0.00711593811281429,
+      "KLD_real_to_synthetic": 0.007117235187595281
+    },
+    "edit_distance_max": {
+      "JSD": 0.06333543049322134,
+      "KLD_synthetic_to_real": 0.2747708297864634,
+      "KLD_real_to_synthetic": 0.15549061100067302
+    },
+    "edit_distance_unique_dict_0": {
+      "JSD": 0.0,
+      "KLD_synthetic_to_real": 0.0,
+      "KLD_real_to_synthetic": 0.0
+    },
+    "edit_distance_unique_dict_1": {
+      "JSD": 0.02048171781201476,
+      "KLD_synthetic_to_real": 0.062288977078734695,
+      "KLD_real_to_synthetic": 0.05412579131058874
+    },
+    "flaps": {
+      "JSD": 0.012058180283443526,
+      "KLD_synthetic_to_real": 0.047630093383743626,
+      "KLD_real_to_synthetic": 0.027331532221342554
+    },
+    "imp_wd": {
+      "JSD": 0.04536730840913173,
+      "KLD_synthetic_to_real": 0.13586405092981055,
+      "KLD_real_to_synthetic": 0.12230107274954656
+    },
+    "imp_wd_dpath": {
+      "JSD": 0.029956404109655013,
+      "KLD_synthetic_to_real": 0.08918227354409712,
+      "KLD_real_to_synthetic": 0.08108386033844589
+    },
+    "imp_wd_spath": {
+      "JSD": 0.05853468894803989,
+      "KLD_synthetic_to_real": 0.18293885407005528,
+      "KLD_real_to_synthetic": 0.15279969557913073
+    },
+    "nadas": {
+      "JSD": 0.006088735238207149,
+      "KLD_synthetic_to_real": 0.015358978853514865,
+      "KLD_real_to_synthetic": 0.01924150756596329
+    },
+    "nlri_ann": {
+      "JSD": 0.011541672900584807,
+      "KLD_synthetic_to_real": 0.03284700084992712,
+      "KLD_real_to_synthetic": 0.0318071919696914
+    },
+    "number_rare_ases": {
+      "JSD": 0.032488847123524844,
+      "KLD_synthetic_to_real": 0.0871735172843374,
+      "KLD_real_to_synthetic": 0.09567138228682834
+    },
+    "origin_0": {
+      "JSD": 0.24037656847975625,
+      "KLD_synthetic_to_real": 0.5624814367148674,
+      "KLD_real_to_synthetic": 1.4945265261563383
+    },
+    "origin_2": {
+      "JSD": 0.15829541950695483,
+      "KLD_synthetic_to_real": 0.346835867945822,
+      "KLD_real_to_synthetic": 1.693127299558333
+    },
+    "origin_changes": {
+      "JSD": 0.12191685430743672,
+      "KLD_synthetic_to_real": 0.26598078572034417,
+      "KLD_real_to_synthetic": 0.9881059382734728
+    },
+    "rare_ases_avg": {
+      "JSD": 0.09977181065004075,
+      "KLD_synthetic_to_real": 0.22043959155053378,
+      "KLD_real_to_synthetic": 3.176003105113611
+    },
+    "unique_as_path_max": {
+      "JSD": 0.04030075536580965,
+      "KLD_synthetic_to_real": 0.10297587334903208,
+      "KLD_real_to_synthetic": 0.1315556123186202
+    },
+    "withdrawals": {
+      "JSD": 0.008488003458044185,
+      "KLD_synthetic_to_real": 0.02074586482546104,
+      "KLD_real_to_synthetic": 0.029510210189440642
+    }
+  },
+  "combined": {
+    "announcements": {
+      "JSD": 0.060154635477398695,
+      "KLD_synthetic_to_real": 0.17992353695894775,
+      "KLD_real_to_synthetic": 0.16130166005391608
+    },
+    "as_path_max": {
+      "JSD": 0.11067464558303367,
+      "KLD_synthetic_to_real": 0.44538871974921773,
+      "KLD_real_to_synthetic": 0.3125729458807997
+    },
+    "dups": {
+      "JSD": 0.2657373020284579,
+      "KLD_synthetic_to_real": 0.6939317569438982,
+      "KLD_real_to_synthetic": 1.1276319699722699
+    },
+    "edit_distance_avg": {
+      "JSD": 0.07669533945684712,
+      "KLD_synthetic_to_real": 0.3929141021680537,
+      "KLD_real_to_synthetic": 0.2002994115539234
+    },
+    "edit_distance_dict_0": {
+      "JSD": 0.2726054250230705,
+      "KLD_synthetic_to_real": 0.7049060850553439,
+      "KLD_real_to_synthetic": 1.1266038641379807
+    },
+    "edit_distance_dict_1": {
+      "JSD": 0.252138741535555,
+      "KLD_synthetic_to_real": 0.7247302542275728,
+      "KLD_real_to_synthetic": 0.8024048403694154
+    },
+    "edit_distance_dict_2": {
+      "JSD": 0.2667108255211157,
+      "KLD_synthetic_to_real": 0.732906222164159,
+      "KLD_real_to_synthetic": 0.9372270164768783
+    },
+    "edit_distance_dict_3": {
+      "JSD": 0.30729747124807466,
+      "KLD_synthetic_to_real": 0.8477300224413562,
+      "KLD_real_to_synthetic": 1.152737727049657
+    },
+    "edit_distance_dict_4": {
+      "JSD": 0.22121510010186465,
+      "KLD_synthetic_to_real": 0.5684556538696786,
+      "KLD_real_to_synthetic": 0.8375769023917714
+    },
+    "edit_distance_dict_5": {
+      "JSD": 0.18980942097692152,
+      "KLD_synthetic_to_real": 0.4738550914886462,
+      "KLD_real_to_synthetic": 0.7388407771355041
+    },
+    "edit_distance_dict_6": {
+      "JSD": 0.160224846100576,
+      "KLD_synthetic_to_real": 0.38491662607602495,
+      "KLD_real_to_synthetic": 0.6491233557123144
+    },
+    "edit_distance_max": {
+      "JSD": 0.21334916336664228,
+      "KLD_synthetic_to_real": 0.6335585656999894,
+      "KLD_real_to_synthetic": 0.6431919965704583
+    },
+    "edit_distance_unique_dict_0": {
+      "JSD": 0.2600755306274731,
+      "KLD_synthetic_to_real": 0.6782756711510813,
+      "KLD_real_to_synthetic": 0.9741550605797897
+    },
+    "edit_distance_unique_dict_1": {
+      "JSD": 0.2356974727024383,
+      "KLD_synthetic_to_real": 0.6862100132243627,
+      "KLD_real_to_synthetic": 0.7298598632883143
+    },
+    "flaps": {
+      "JSD": 0.20137207792039732,
+      "KLD_synthetic_to_real": 0.5279417190061602,
+      "KLD_real_to_synthetic": 0.7309371773919752
+    },
+    "imp_wd": {
+      "JSD": 0.11867666068212951,
+      "KLD_synthetic_to_real": 0.3772299203985768,
+      "KLD_real_to_synthetic": 0.3156500980650893
+    },
+    "imp_wd_dpath": {
+      "JSD": 0.10641232112682973,
+      "KLD_synthetic_to_real": 0.3222306418103858,
+      "KLD_real_to_synthetic": 0.29312563416762055
+    },
+    "imp_wd_spath": {
+      "JSD": 0.11835374547986122,
+      "KLD_synthetic_to_real": 0.3311338445380597,
+      "KLD_real_to_synthetic": 0.3497180549538201
+    },
+    "nadas": {
+      "JSD": 0.07345142423092853,
+      "KLD_synthetic_to_real": 0.19848044421509098,
+      "KLD_real_to_synthetic": 0.2211023207745341
+    },
+    "nlri_ann": {
+      "JSD": 0.09412879718590393,
+      "KLD_synthetic_to_real": 0.28472091200098304,
+      "KLD_real_to_synthetic": 0.2543026027498161
+    },
+    "number_rare_ases": {
+      "JSD": 0.04347266900174231,
+      "KLD_synthetic_to_real": 0.12401925814271243,
+      "KLD_real_to_synthetic": 0.12268228264047777
+    },
+    "origin_0": {
+      "JSD": 0.45693901633333334,
+      "KLD_synthetic_to_real": 1.5559673322150145,
+      "KLD_real_to_synthetic": 1.5237708460946553
+    },
+    "origin_2": {
+      "JSD": 0.014237491299825747,
+      "KLD_synthetic_to_real": 0.040769178706670656,
+      "KLD_real_to_synthetic": 0.04612442829349703
+    },
+    "origin_changes": {
+      "JSD": 0.015896500385778483,
+      "KLD_synthetic_to_real": 0.04318710406159225,
+      "KLD_real_to_synthetic": 0.046132670454382595
+    },
+    "rare_ases_avg": {
+      "JSD": 0.1151867259137064,
+      "KLD_synthetic_to_real": 0.48736570887911623,
+      "KLD_real_to_synthetic": 0.3689701768790113
+    },
+    "unique_as_path_max": {
+      "JSD": 0.3864055056674253,
+      "KLD_synthetic_to_real": 1.014290214327302,
+      "KLD_real_to_synthetic": 4.553932012790972
+    },
+    "withdrawals": {
+      "JSD": 0.059893481917776895,
+      "KLD_synthetic_to_real": 0.16678606170302698,
+      "KLD_real_to_synthetic": 0.17111362373018643
+    }
+  }
+}
