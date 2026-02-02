@@ -1,0 +1,96 @@
+{
+  "constant_both": [],
+  "constant_synthetic_only": [],
+  "constant_real_only": [],
+  "large_effect_size": [
+    "edit_distance_dict_0",
+    "edit_distance_unique_dict_0"
+  ],
+  "poor_ks_similarity": [
+    "imp_wd_dpath",
+    "edit_distance_dict_0",
+    "edit_distance_unique_dict_0",
+    "edit_distance_unique_dict_1",
+    "edit_distance_dict_2",
+    "edit_distance_dict_1",
+    "origin_0",
+    "imp_wd",
+    "announcements",
+    "nlri_ann",
+    "edit_distance_dict_3",
+    "origin_2",
+    "flaps",
+    "nadas",
+    "as_path_max"
+  ],
+  "top_k_worst_features": [
+    "edit_distance_dict_0",
+    "edit_distance_unique_dict_0",
+    "imp_wd_dpath",
+    "edit_distance_unique_dict_1",
+    "edit_distance_dict_2",
+    "edit_distance_dict_1",
+    "announcements",
+    "nadas",
+    "flaps",
+    "imp_wd"
+  ],
+  "calibration_issues": {
+    "features_with_mean_bias": [
+      "imp_wd_dpath",
+      "edit_distance_dict_0",
+      "edit_distance_dict_2",
+      "edit_distance_unique_dict_0",
+      "edit_distance_unique_dict_1"
+    ],
+    "features_with_std_bias": [
+      "announcements",
+      "withdrawals",
+      "nlri_ann",
+      "dups",
+      "origin_0",
+      "origin_2",
+      "origin_changes",
+      "imp_wd",
+      "imp_wd_spath",
+      "imp_wd_dpath",
+      "edit_distance_max",
+      "edit_distance_dict_0",
+      "edit_distance_dict_1",
+      "edit_distance_dict_2",
+      "edit_distance_dict_3",
+      "edit_distance_dict_6",
+      "edit_distance_unique_dict_0",
+      "nadas",
+      "flaps"
+    ]
+  },
+  "multivariate_metrics": {
+    "pca_centroid_distance": 1.9005792878153633,
+    "pca_centroid_distance_2d": 1.5880296620184653,
+    "tsne_centroid_distance": "24.494204"
+  },
+  "feature_importance_weights": {
+    "announcements": 1.5,
+    "withdrawals": 1.5,
+    "flaps": 1.5,
+    "nadas": 1.3,
+    "rare_ases": 1.3,
+    "unique_prefixes": 1.2,
+    "unique_ases": 1.2,
+    "avg_path_length": 1.2,
+    "max_path_length": 1.1,
+    "avg_edit_distance": 1.1,
+    "edit_dist_0": 0.8,
+    "edit_dist_1": 0.9,
+    "edit_dist_2": 0.9,
+    "edit_dist_3": 0.9,
+    "edit_dist_4_plus": 0.8,
+    "_default": 1.0
+  },
+  "overall_scores": {
+    "weighted": 52.92627228662542,
+    "unweighted": 52.88677898490073,
+    "weighting_impact": 0.0394933017246899
+  }
+}

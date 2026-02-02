@@ -1,0 +1,29 @@
+Metric,Value
+Synthetic Samples,20000
+Real Samples,20000
+Valid Features Compared,26
+Constant in Both (Excluded),0
+Constant in Synthetic Only (GAN Issue),1
+Constant in Real Only,0
+KS Excellent Features,0
+KS Good or Better Features,0
+Mean KS Statistic,0.5078
+Mean Wasserstein Distance,0.2346
+Weighted Wasserstein Distance,0.2317
+Correlation Similarity (Pearson),0.7576
+Correlation Similarity (Spearman),0.5845
+PCA Centroid Distance,2.9221
+Negligible Effect Features,6
+Small Effect Features,8
+Medium Effect Features,7
+Large Effect Features,5
+Distribution Score (Weighted),0.0/100
+Distribution Score (Unweighted),0.0/100
+Correlation Score,87.9/100
+Effect Size Score (Weighted),55.7/100
+Effect Size Score (Unweighted),52.9/100
+Wasserstein Score (Weighted),53.7/100
+Multivariate (PCA) Score,2.6/100
+Overall Similarity Score (WEIGHTED),40.1/100
+Overall Similarity Score (UNWEIGHTED),39.3/100
+Weighting Impact,+0.8 points
